@@ -1,7 +1,17 @@
 module Main where
 
+import           System.Environment (getArgs)
+
 import qualified Problem01
+import qualified Problem02
 
-print' x = putStrLn (show x)
+problemMap :: String -> IO()
+problemMap "1" = print Problem01.solve
+problemMap "2" = print Problem02.solve
 
-main = print' Problem01.solve
+
+main :: IO ()
+main = do
+    arg <- getLine
+
+    problemMap arg

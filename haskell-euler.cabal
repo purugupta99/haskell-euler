@@ -24,10 +24,13 @@ extra-source-files:
     README.md
 
 executable haskell-euler
-    main-is:          Main.hs
+    main-is:          
+        Main.hs
 
     -- Modules included in this executable, other than Main.
-    other-modules: Problem01
+    other-modules: 
+        Problem01
+        Problem02
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
