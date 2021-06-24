@@ -31,7 +31,8 @@ executable haskell-euler
     other-modules: 
         Problem01,
         Problem02,
-        Problem03
+        Problem03,
+        Problem04
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
@@ -52,4 +53,5 @@ Test-Suite test-euler
     other-modules: 
         Problem01,
         Problem02,
-        Problem03
+        Problem03,
+        Problem04
