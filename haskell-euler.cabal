@@ -47,7 +47,9 @@ Test-Suite test-euler
     main-is:    Main.hs
     build-depends: 
         base,
-        arithmoi
+        arithmoi,
+        HUnit
+        
     hs-source-dirs: test, src
 
     other-modules: 
